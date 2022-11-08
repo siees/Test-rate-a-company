@@ -1,0 +1,124 @@
+.list {
+  list-style: none;
+  display: flex;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:1%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerButton {
+  text-decoration: none;
+  color: #153754;
+  font-size: 16px;
+  font-weight: medium;
+  margin-left: 2vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.headerButton:hover {
+  background-color: #F9F9F9;
+  border-radius: 30px;
+}
+.headerSpecialButton {
+  text-decoration: none;
+  color: #E86161;
+  font-size: 16px;
+  font-weight: medium;
+  margin-left: 2vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  letter-spacing: 0px;
+  background-color: rgba(232, 97, 97, .1);
+  border-radius: 30px;
+}
+
+
+.languageButton {
+  text-decoration: none;
+  color: #153754;
+  font-size: 16px;
+  font-weight: medium;
+  margin-left: 2vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  letter-spacing: 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.languageButton:hover {
+  color: #E86161;
+}
+.dropdown-content {
+  position: absolute;
+  display: block;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.frenchButton{
+  display: block;
+  text-decoration: none;
+  color: #E86161;
+  padding : 1rem;
+}
+.englishButton{
+  display: block;
+  text-decoration: none;
+  color: #153754;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.loginButton {
+  text-decoration: none;
+  color: #153754;
+  font-size: 16px;
+  font-weight: medium;
+  margin-left: 2vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.loginButton:hover {
+  color: #E86161;
+}
+
+.registerButton {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: medium;
+  margin-left: 2vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  letter-spacing: 0px;
+  background-color: #153754;
+  border-radius: 30px;
+}
+
+.rightHeader{
+  margin-left: 2%
+}
