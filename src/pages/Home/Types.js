@@ -41,9 +41,7 @@ const Types = () => {
           </a>
         </div>
       </div>
-      <div className="types-image">
-        <img src={BgTypes} alt="bg-types"></img>
-      </div>
+      <img className="types-image" src={BgTypes} alt="bg-types"></img>
     </div>
   );
 };

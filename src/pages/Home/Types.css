@@ -1,7 +1,7 @@
 .types-image {
-  top: -5em;
-  display: block;
-  max-width: 100%;
+  z-index: 1;
+  margin-top: -10em;
+  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -19,11 +19,12 @@
 }
 
 .types-box {
+  position: relative;
   width: 45%;
   margin: 1em;
   border: 1px solid #EAECF2;
   border-radius: 10px;
-  padding: 2em;
+  padding: 2em;z-index: 1;
   height: calc(50em/2);
 }
 
@@ -59,4 +60,6 @@
   color: #FFFFFF;
   background-color: #E86161;
   border-radius: 23px;
+  position: absolute;
+  bottom: 2em;
 }
