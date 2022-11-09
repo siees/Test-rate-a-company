@@ -1,0 +1,44 @@
+.testimonals {
+  background: linear-gradient(#F5F8FB, #FFFFFF);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.testimonals-title {
+  top: em;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #0C263B;
+  opacity: 1;
+}
+.testimonals-subTitle {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #6F7B84;
+  opacity: 1;
+}
+
+.cards{
+  align-items: baseline;
+  display: flex;
+ gap: 1em;
+}
+
+.threeDot{
+  margin-top: 2em;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 1em 1em;
+  background-color: #0C263B;
+  border-radius: 50%;
+  display: inline-block;
+}
