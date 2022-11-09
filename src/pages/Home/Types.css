@@ -24,8 +24,9 @@
   margin: 1em;
   border: 1px solid #EAECF2;
   border-radius: 10px;
-  padding: 2em;z-index: 1;
-  height: calc(50em/2);
+  padding: 2em;
+  z-index: 1;
+  height: 30em;
 }
 
 .types-title {
