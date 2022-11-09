@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 import './Header.css';
 import logo from '../assets/img/png/logo.png';
 import LanguageIcon from '../assets/img/svg/icon-language.svg';
 import LanguageHoverIcon from '../assets/img/svg/icon-language-hover.svg';
+import SearchIcon from '../assets/img/svg/search.svg';
+
+import SearchModal from '../components/SearchModal';
 
 const Header = () => {
   const [isHovering, setIsHovering] = useState(false);
@@ -14,6 +17,12 @@ const Header = () => {
   const handleMouseOut = () => {
     setIsHovering(false);
   };
+
+  const [modal, setModal] = useState(false);
+  const toggleModal = (e) => setModal(!modal);
+
+  const modalRef = useRef(null);
+
   return (
     <div>
       <div className="list">
@@ -35,6 +44,12 @@ const Header = () => {
             Contact
           </a>
         </div>
+        <img
+          src={SearchIcon}
+          style={{ height: 20, width: 15 }}
+          alt="searchIcon"
+          onClick={toggleModal}
+        ></img>
         <div className="rightHeader">
           <span
             className="languageButton"
@@ -79,6 +94,11 @@ const Header = () => {
           </a>
         </div>
       </div>
+      <SearchModal ref={modalRef} onClose={toggleModal} show={modal}>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis deserunt
+        corrupti, ut fugit magni qui quasi nisi amet repellendus non fuga omnis
+        a sed impedit explicabo accusantium nihil doloremque consequuntur.
+      </SearchModal>
     </div>
   );
 };
